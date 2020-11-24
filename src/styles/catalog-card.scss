@@ -6,7 +6,7 @@
   flex-shrink: 0;
   height: 403px;
   width: 200px;
-  margin-bottom: 50px;
+  //margin-bottom: 50px;
   padding: 15px 14px;
   font-size: $font-size-small;
   line-height: 13px;
@@ -20,7 +20,7 @@
     padding: 12px 0;
     margin: 0 auto 30px;
     border: 3px solid transparent;
-    transition: transform .5s;
+    transition: transform 0.5s;
   }
 
   &__image:hover {
@@ -68,7 +68,7 @@
     border-radius: 5px;
     text-transform: uppercase;
     border: 1px solid $color-blue;
-    transition: background-color .5s, color .5s;
+    transition: background-color 0.5s, color 0.5s;
   }
 
   &__buy-button:hover {

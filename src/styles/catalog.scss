@@ -1,7 +1,8 @@
 .catalog {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 0 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+  gap: 50px 48px;
+  grid-auto-flow: row;
+  justify-content: center;
   max-width: 1024px;
 }
