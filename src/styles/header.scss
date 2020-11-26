@@ -1,8 +1,8 @@
-$color-white: #fff;
+@import "variables";
 
 .header {
-  display: grid;
-  grid-template-columns: 170px 1fr;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
   padding: 0 50px;
   background-color: $color-white;
