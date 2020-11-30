@@ -1,35 +1,24 @@
 @import "variables";
 
-.nav {
-  display: flex;
-}
-
 .nav__list {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(8, max-content);
+  gap: 0 20px;
+  justify-content: end;
   list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.nav__item {
-  margin-left: 20px;
-  display: flex;
-  align-items: center;
-  flex-shrink: 0;
-}
-
-.nav__item:first-child {
-  margin-left: 0;
 }
 
 .nav__link {
-  text-decoration: none;
+  display: inline-block;
   font-size: $font-size-basic;
   font-weight: 500;
+
+  line-height: $header-height;
+
   text-transform: uppercase;
   color: $color-black;
-  line-height: $header-height;
-  transition: color .3s;
+  text-decoration: none;
+  transition: color 0.3s;
 }
 
 .nav__link:hover {

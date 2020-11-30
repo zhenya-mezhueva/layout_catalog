@@ -1,7 +1,10 @@
+@import "variables";
+
 .catalog {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 0 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, $card-width);
+  gap: $card-gapY $card-gapX;
+  grid-auto-flow: row;
+  justify-content: center;
   max-width: 1024px;
 }
